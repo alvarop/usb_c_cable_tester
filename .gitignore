@@ -1,0 +1,13 @@
+*-backups
+*-bak
+*.zip
+gerbers/
+gerber/
+fp-info-cache
+_autosave*
+*auto_saved*
+*.csv
+*.xml
+*.pdf
+*.html
+jlcpcb
