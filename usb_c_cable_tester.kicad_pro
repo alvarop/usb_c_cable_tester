@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.17779999999999999
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|139425000|100366666|fc5654c3-fa44-49e9-8f8f-a9e56543031f|a0d559d2-c933-4f17-927d-1e3aefd96664",
+        "clearance|140000000|100616666|a3c41cab-8a4f-4bd2-ac3b-71ae4865c11e|a0d559d2-c933-4f17-927d-1e3aefd96664",
+        "clearance|140000000|93116666|28235302-7f10-46f2-aae0-762c088a6a8e|e9da2b34-640d-4368-9dd7-4560222d43cb",
+        "clearance|140575000|93366666|8a19427f-390c-4597-821f-8e0fe7a16240|e9da2b34-640d-4368-9dd7-4560222d43cb",
+        "clearance|63830000|105400000|70c59c58-f0f4-4c6d-bdeb-30881b92b1e4|d7da9083-ff47-4350-978a-2f4574114042",
+        "clearance|63830000|112600000|b3d00676-35d7-4326-ae64-4dea1714208a|18a137a5-1822-4e47-a09f-4c288464b84d"
+      ],
       "meta": {
         "version": 2
       },
