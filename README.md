@@ -11,7 +11,7 @@ Plug in your cable to both sides and see which signals light up!
 ![Board Back](img/back.jpg)
 
 ## Ordering Pre-made Boards From JLCPCB
-I have added instructions on how to order from JLCPCB in the [ORDERING.md](ORDERING) page.
+I have added instructions on how to order from JLCPCB in the [ORDERING](ORDERING.md) page.
 
 ## Assembly
 Want to build your own? Take a look at the release [here](https://github.com/alvarop/usb_c_cable_tester/releases/tag/v2.0). There's a file called jlcpcb.zip which you can use to order bare boards or fully assembled ones from [JLCPCB](https://jlcpcb.com/).
