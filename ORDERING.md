@@ -13,7 +13,5 @@ Plug in your cable to both sides and see which signals light up!
 ## Assembly
 Want to build your own? Take a look at the release [here](https://github.com/alvarop/usb_c_cable_tester/releases/tag/v2.0). There's a file called jlcpcb.zip which you can use to order bare boards or fully assembled ones from [JLCPCB](https://jlcpcb.com/).
 
-I have added instructions on how to order from JLC in the [ORDERING.md](ORDERING) page.
-
 ## License
 USB Cable Tester © 2022 by Alvaro Prieto is licensed under CC BY 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
