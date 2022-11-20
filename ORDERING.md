@@ -1,17 +1,23 @@
-# USB Cable Tester
+# Ordering Instructions on [JLCPCB](https://jlcpcb.com/).
 
-Simple board to test various USB cables!
-
-Plug in your cable to both sides and see which signals light up!
-
-**FOR CABLE USE ONLY. DO NOT EVER PLUG THIS IN TO A DEVICE, THE PINS ON ONE SIDE ARE ALL SHORTED TOGETHER AND THAT COULD BREAK IT!**
-
-![Board Front](img/front.jpg)
-
-![Board Back](img/back.jpg)
-
-## Assembly
-Want to build your own? Take a look at the release [here](https://github.com/alvarop/usb_c_cable_tester/releases/tag/v2.0). There's a file called jlcpcb.zip which you can use to order bare boards or fully assembled ones from [JLCPCB](https://jlcpcb.com/).
-
-## License
-USB Cable Tester © 2022 by Alvaro Prieto is licensed under CC BY 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+1. Download jlcpcb.zip from [releases page](https://github.com/alvarop/usb_c_cable_tester/releases)
+2. Go to JLCPCB, click on "instant quote" or "order now" and upload the file GERBER-usb_c_cable_tester.zip
+3. Selec the following settings (or change how you like them)
+  * ENIG will look better, but it's a bit more expensive. I definitely recommend lead free HASL at the very least
+  ![Selection page](img/1.jpg)
+4. Make sure you select PCB Assembly as well then click Next
+5. Upload BOM and Placement files
+  ![Upload BOM](img/2.jpg)
+6. Verify BOM
+  ![BOM](img/3.jpg)
+7. Verify component placement (it's not quite right by default)
+ 1. First, rotate the battery holder 90 degrees to the left
+    ![component placement](img/4.jpg)
+ 2. Then select each USB connector and use the arrows on the top right to move it into place
+    ![front of board](img/5.jpg)
+ 3. You can change the view to the back to make sure the pins line up
+    ![back of board](img/6.jpg)
+ 4. The 3d view is also quite useful when trying to line things up
+    ![3d view](img/7.jpg)
+8. Checkout!
+   ![Checkout!](img/8.jpg)
