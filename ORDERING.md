@@ -3,6 +3,19 @@
 ## Download Files
 Download jlcpcb.zip from [releases page](https://github.com/alvarop/usb_c_cable_tester/releases)
 
+Unzip the `jlcpcb.zip` file, and you should find three files used below:
+
+* `gerber/GERBER-usb_c_cable_tester.zip` -- PCB Manufacturing Gerber files (first upload page)
+
+* `assembly/BOM-usb_c_cable_tester.csv` -- Component Bill of Materials (second upload page)
+
+* `assembly/POS-usb_c_cable_tester.csv` -- Component Positions (second upload page)
+
+(There is also another copy of the Gerber files in the `gerber/`
+directory of the main zip file, but uploading the whole `jlcpcb.zip`
+will confuse the JLCPCB techs and cause them to ask questions.  So unzip
+the `jlcpcb.zip` first :-) )
+
 ## Upload Gerbers and Select PCB Parameters
 Go to JLCPCB, click on "instant quote" or "order now" and upload the file GERBER-usb_c_cable_tester.zip
 
