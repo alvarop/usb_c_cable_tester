@@ -16,5 +16,8 @@ I have added instructions on how to order from JLCPCB in the [ORDERING](ORDERING
 ## Assembly
 Want to build your own? Take a look at the release [here](https://github.com/alvarop/usb_c_cable_tester/releases/tag/v2.0). There's a file called jlcpcb.zip which you can use to order bare boards or fully assembled ones from [JLCPCB](https://jlcpcb.com/).
 
+## Related Projects!
+@coryalder made a neat [3d printed/laser cut case](https://github.com/coryalder/usb-c-tester-case). Check it out!
+
 ## License
 USB Cable Tester © 2022 by Alvaro Prieto is licensed under CC BY 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
