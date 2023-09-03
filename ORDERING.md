@@ -54,3 +54,6 @@ The 3d view is also quite useful when trying to line things up
 ## Checkout!
 
 ![Checkout!](img/8.png)
+
+## Additional Notes
+[There have been reports](https://github.com/alvarop/usb_c_cable_tester/issues/15) of JLC asking if all the pins on one side should be shorted together. The answer is yes, this is on purpose :D
