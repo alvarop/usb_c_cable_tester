@@ -3090,9 +3090,6 @@
     (property "Datasheet" "" (at 63.5 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C70377" (at 63.5 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (pin "1" (uuid 90e39b95-adc8-4dfe-9b56-1736e683585b))
     (instances
       (project "usb_c_cable_tester"
@@ -3379,9 +3376,6 @@
     (property "Datasheet" "" (at 88.9 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C70377" (at 88.9 24.13 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (pin "1" (uuid d8486389-9107-4edf-a74a-246161d527c7))
     (instances
       (project "usb_c_cable_tester"
@@ -3405,9 +3399,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 45.72 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C70377" (at 45.72 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0ff59794-b893-4f52-b6b4-cbaac73d0d6d))
@@ -3580,9 +3571,6 @@
     (property "Datasheet" "" (at 63.5 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C70377" (at 63.5 41.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (pin "1" (uuid eeae7134-d425-49c8-b829-06fce0b43ccb))
     (instances
       (project "usb_c_cable_tester"
@@ -3641,9 +3629,6 @@
     (property "Datasheet" "" (at 279.4 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C70377" (at 279.4 153.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
     (pin "1" (uuid d1c6eb34-84f1-4301-b97b-f0ee32e89a3e))
     (instances
       (project "usb_c_cable_tester"
@@ -3696,9 +3681,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 45.72 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C70377" (at 45.72 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 92142ad6-0277-42c5-be63-ead534b3d534))
