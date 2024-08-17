@@ -14,10 +14,16 @@ Plug in your cable to both sides and see which signals light up!
 I have added instructions on how to order from JLCPCB in the [ORDERING](ORDERING.md) page.
 
 ## Assembly
-Want to build your own? Take a look at the release [here](https://github.com/alvarop/usb_c_cable_tester/releases/tag/v2.0). There's a file called jlcpcb.zip which you can use to order bare boards or fully assembled ones from [JLCPCB](https://jlcpcb.com/).
+Want to build your own? There are two options.
+
+### JLCPCB
+Take a look at the [v2.2 release](https://github.com/alvarop/usb_c_cable_tester/releases/tag/v2.2). There's a file called jlcpcb.zip which you can use to order bare boards or fully assembled ones from [JLCPCB](https://jlcpcb.com/).
+
+### Hand Solder
+For a hand-solder friendly version with components you can get on Digikey/Mouser, see [the v2.4 release](https://github.com/alvarop/usb_c_cable_tester/releases/tag/v2.4)
 
 ## Related Projects!
-@coryalder made a neat [3d printed/laser cut case](https://github.com/coryalder/usb-c-tester-case). Check it out!
+@coryalder made a neat [3d printed/laser cut case](https://github.com/coryalder/usb-c-tester-case). Check it out! (But make sure it's for the correct version, since components have changed)
 
 ## License
-USB Cable Tester © 2022 by Alvaro Prieto is licensed under CC BY 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+USB Cable Tester © 2024 by Alvaro Prieto is licensed under CC BY 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
