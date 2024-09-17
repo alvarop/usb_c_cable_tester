@@ -25,5 +25,7 @@ For a hand-solder friendly version with components you can get on Digikey/Mouser
 ## Related Projects!
 @coryalder made a neat [3d printed/laser cut case](https://github.com/coryalder/usb-c-tester-case). Check it out! (But make sure it's for the correct version, since components have changed)
 
+[@foorschtbar@chaos.social](https://mastodon.social/@foorschtbar@chaos.social) made a really nice 3D printed case (multicolor). You can [find it here.](https://www.printables.com/model/1003847-usb-cable-tester-multicolor-case)
+
 ## License
 USB Cable Tester © 2024 by Alvaro Prieto is licensed under CC BY 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
