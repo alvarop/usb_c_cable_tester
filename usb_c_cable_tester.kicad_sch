@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "USB Cable Tester")
-		(date "2024-08-16")
-		(rev "2.4")
+		(date "2023-08-19")
+		(rev "2.2")
 		(company "Quesadillon LLC")
 	)
 	(lib_symbols
@@ -64,15 +64,6 @@
 				)
 			)
 			(property "ki_keywords" "usb universal serial bus"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "USB3*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1791,8 +1782,8 @@
 					)
 				)
 				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
+					(start -1.5748 1.1938)
+					(end 1.4732 0.6858)
 					(stroke
 						(width 0)
 						(type default)
@@ -1827,7 +1818,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
+						(xy 0.508 3.429) (xy 1.524 3.429)
 					)
 					(stroke
 						(width 0.254)
@@ -1839,7 +1830,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
+						(xy 1.016 3.937) (xy 1.016 2.921)
 					)
 					(stroke
 						(width 0.254)
@@ -3861,7 +3852,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3983,7 +3974,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7393,7 +7384,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 106.68 90)
 			(effects
 				(font
@@ -7427,35 +7418,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 109.22 0)
+		(property "LCSC" "C4190"
+			(at 251.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,35 +7493,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 22.86 0)
+		(property "LCSC" "C72038"
+			(at 264.16 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,7 +7534,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 20.32 90)
 			(effects
 				(font
@@ -7631,35 +7568,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 22.86 0)
+		(property "LCSC" "C4190"
+			(at 251.46 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +7609,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 81.28 90)
 			(effects
 				(font
@@ -7733,35 +7643,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 83.82 0)
+		(property "LCSC" "C4190"
+			(at 251.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,35 +7718,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 53.34 0)
+		(property "LCSC" "C72038"
+			(at 264.16 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7915,7 +7771,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "snapeda:BELFUSE_SS-52400-003"
+		(property "Footprint" "easyeda:USB-C-SMD_UT11113-11602-7H"
 			(at 116.84 96.52 0)
 			(effects
 				(font
@@ -7924,7 +7780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 111.76 99.06 0)
 			(effects
 				(font
@@ -7941,35 +7797,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SS-52400-003"
-			(at 109.22 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Stewart Connector"
-			(at 109.22 48.26 0)
+		(property "LCSC" "C2761408"
+			(at 109.22 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8078,7 +7907,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 91.44 90)
 			(effects
 				(font
@@ -8112,35 +7941,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 93.98 0)
+		(property "LCSC" "C4190"
+			(at 251.46 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,6 +8018,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C70377"
+			(at 63.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90e39b95-adc8-4dfe-9b56-1736e683585b")
 		)
@@ -8279,35 +8090,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 99.06 0)
+		(property "LCSC" "C72038"
+			(at 264.16 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8347,7 +8131,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 30.48 90)
 			(effects
 				(font
@@ -8381,35 +8165,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 33.02 0)
+		(property "LCSC" "C4190"
+			(at 251.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8449,7 +8206,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 55.88 90)
 			(effects
 				(font
@@ -8483,35 +8240,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 58.42 0)
+		(property "LCSC" "C4190"
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8585,35 +8315,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 114.3 0)
+		(property "LCSC" "C72038"
+			(at 264.16 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8653,7 +8356,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 121.92 90)
 			(effects
 				(font
@@ -8687,35 +8390,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 124.46 0)
+		(property "LCSC" "C4190"
+			(at 251.46 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,7 +8431,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 96.52 90)
 			(effects
 				(font
@@ -8789,35 +8465,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 99.06 0)
+		(property "LCSC" "C4190"
+			(at 251.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8857,7 +8506,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 137.16 90)
 			(effects
 				(font
@@ -8891,35 +8540,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 139.7 0)
+		(property "LCSC" "C4190"
+			(at 251.46 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,7 +8581,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 116.84 90)
 			(effects
 				(font
@@ -8993,35 +8615,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 119.38 0)
+		(property "LCSC" "C4190"
+			(at 251.46 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9061,7 +8656,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 66.04 90)
 			(effects
 				(font
@@ -9095,35 +8690,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 68.58 0)
+		(property "LCSC" "C4190"
+			(at 251.46 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9199,6 +8767,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C70377"
+			(at 88.9 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8486389-9107-4edf-a74a-246161d527c7")
 		)
@@ -9264,6 +8841,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C70377"
+			(at 45.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ff59794-b893-4f52-b6b4-cbaac73d0d6d")
 		)
@@ -9327,35 +8913,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 43.18 0)
+		(property "LCSC" "C72038"
+			(at 264.16 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9429,35 +8988,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 109.22 0)
+		(property "LCSC" "C72038"
+			(at 264.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9497,7 +9029,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 50.8 90)
 			(effects
 				(font
@@ -9531,35 +9063,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 53.34 0)
+		(property "LCSC" "C4190"
+			(at 251.46 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9633,35 +9138,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 68.58 0)
+		(property "LCSC" "C72038"
+			(at 264.16 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9701,7 +9179,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 40.64 90)
 			(effects
 				(font
@@ -9735,35 +9213,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 43.18 0)
+		(property "LCSC" "C4190"
+			(at 251.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9839,6 +9290,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C70377"
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eeae7134-d425-49c8-b829-06fce0b43ccb")
 		)
@@ -9880,7 +9340,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "snapeda:TE_1734510-1"
+		(property "Footprint" "easyeda:MINI-USB-SMD_MINI-5PTP"
 			(at 110.49 176.53 0)
 			(effects
 				(font
@@ -9906,35 +9366,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" "0548190519"
-			(at 114.3 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" "Molex"
-			(at 114.3 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "1734510-1"
-			(at 114.3 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity"
-			(at 114.3 175.26 0)
+		(property "LCSC" "C2681563"
+			(at 120.65 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10022,6 +9455,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C70377"
+			(at 279.4 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1c6eb34-84f1-4301-b97b-f0ee32e89a3e")
 		)
@@ -10085,35 +9527,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 124.46 0)
+		(property "LCSC" "C72038"
+			(at 264.16 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10189,6 +9604,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C70377"
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92142ad6-0277-42c5-be63-ead534b3d534")
 		)
@@ -10252,35 +9676,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 78.74 0)
+		(property "LCSC" "C72038"
+			(at 264.16 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10320,7 +9717,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 76.2 90)
 			(effects
 				(font
@@ -10354,35 +9751,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 78.74 0)
+		(property "LCSC" "C4190"
+			(at 251.46 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10433,7 +9803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "snapeda:BAT_BU2032SM-BT-GTR"
+		(property "Footprint" "easyeda:BAT-TH_CR2032-BS-6-1"
 			(at 45.72 31.496 90)
 			(effects
 				(font
@@ -10459,35 +9829,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 45.72 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 45.72 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BU2032SM-BT-GTR"
-			(at 45.72 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Memory Protection Devices"
-			(at 45.72 33.02 0)
+		(property "LCSC" "C70377"
+			(at 49.53 29.7179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10561,35 +9904,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 73.66 0)
+		(property "LCSC" "C72038"
+			(at 264.16 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10631,7 +9947,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "C_Small"
 			(at 66.04 31.7562 0)
 			(effects
 				(font
@@ -10666,35 +9982,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 63.5 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 63.5 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 63.5 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 63.5 30.48 0)
+		(property "LCSC" "C15850"
+			(at 66.04 29.2162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10768,35 +10057,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 93.98 0)
+		(property "LCSC" "C72038"
+			(at 264.16 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10836,7 +10098,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 71.12 90)
 			(effects
 				(font
@@ -10870,35 +10132,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 73.66 0)
+		(property "LCSC" "C4190"
+			(at 251.46 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10972,35 +10207,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 63.5 0)
+		(property "LCSC" "C72038"
+			(at 264.16 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11074,35 +10282,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 38.1 0)
+		(property "LCSC" "C72038"
+			(at 264.16 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,7 +10323,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 127 90)
 			(effects
 				(font
@@ -11176,35 +10357,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 129.54 0)
+		(property "LCSC" "C4190"
+			(at 251.46 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11244,7 +10398,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 60.96 90)
 			(effects
 				(font
@@ -11278,35 +10432,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 63.5 0)
+		(property "LCSC" "C4190"
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11346,7 +10473,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 111.76 90)
 			(effects
 				(font
@@ -11380,35 +10507,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 114.3 0)
+		(property "LCSC" "C4190"
+			(at 251.46 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11482,35 +10582,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 104.14 0)
+		(property "LCSC" "C72038"
+			(at 264.16 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11550,7 +10623,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 45.72 90)
 			(effects
 				(font
@@ -11584,35 +10657,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 48.26 0)
+		(property "LCSC" "C4190"
+			(at 251.46 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11652,7 +10698,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 142.24 90)
 			(effects
 				(font
@@ -11686,35 +10732,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 144.78 0)
+		(property "LCSC" "C4190"
+			(at 251.46 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11754,7 +10773,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 25.4 90)
 			(effects
 				(font
@@ -11788,35 +10807,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 27.94 0)
+		(property "LCSC" "C4190"
+			(at 251.46 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11856,7 +10848,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 86.36 90)
 			(effects
 				(font
@@ -11890,35 +10882,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 88.9 0)
+		(property "LCSC" "C4190"
+			(at 251.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11992,35 +10957,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 33.02 0)
+		(property "LCSC" "C72038"
+			(at 264.16 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12072,7 +11010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "snapeda:AMPHENOL_GSB3211311WEU"
+		(property "Footprint" "easyeda:USB-B-TH_XUNPU_USB-306BWD-ARW"
 			(at 105.41 134.62 0)
 			(effects
 				(font
@@ -12098,35 +11036,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" "E8199-030-03"
-			(at 109.22 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" "Pulse Electronics"
-			(at 109.22 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GSB3211311WEU"
-			(at 109.22 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Amphenol ICC"
-			(at 109.22 137.16 0)
+		(property "LCSC" "C70377"
+			(at 120.65 136.5249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12199,7 +11110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "snapeda:AMPHENOL_GSB311131HR"
+		(property "Footprint" "easyeda:USB-A-TH_U231-091N-5"
 			(at 171.45 127 0)
 			(effects
 				(font
@@ -12225,35 +11136,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" "SS-52000-001"
-			(at 167.64 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" "Stewart Connector"
-			(at 167.64 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GSB311131HR"
-			(at 167.64 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Amphenol ICC"
-			(at 167.64 129.54 0)
+		(property "LCSC" "C381137"
+			(at 167.64 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12351,35 +11235,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 119.38 0)
+		(property "LCSC" "C72038"
+			(at 264.16 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12453,35 +11310,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 139.7 0)
+		(property "LCSC" "C72038"
+			(at 264.16 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12555,35 +11385,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 27.94 0)
+		(property "LCSC" "C72038"
+			(at 264.16 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12657,35 +11460,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 48.26 0)
+		(property "LCSC" "C72038"
+			(at 264.16 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12759,35 +11535,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 144.78 0)
+		(property "LCSC" "C72038"
+			(at 264.16 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12861,35 +11610,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 134.62 0)
+		(property "LCSC" "C72038"
+			(at 264.16 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12963,35 +11685,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 88.9 0)
+		(property "LCSC" "C72038"
+			(at 264.16 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13031,7 +11726,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 132.08 90)
 			(effects
 				(font
@@ -13065,35 +11760,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 134.62 0)
+		(property "LCSC" "C4190"
+			(at 251.46 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13167,35 +11835,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 83.82 0)
+		(property "LCSC" "C72038"
+			(at 264.16 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13237,7 +11878,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "USB_C_Receptacle"
+		(property "Value" "USB_C_Receptacle_ALLPINS"
 			(at 180.34 17.78 0)
 			(effects
 				(font
@@ -13246,7 +11887,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "snapeda:BELFUSE_SS-52400-003"
+		(property "Footprint" "easyeda:USB-C-SMD_UT11113-11602-7H"
 			(at 165.1 96.52 0)
 			(effects
 				(font
@@ -13255,7 +11896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 170.18 99.06 0)
 			(effects
 				(font
@@ -13272,35 +11913,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 172.72 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 172.72 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SS-52400-003"
-			(at 172.72 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Stewart Connector"
-			(at 172.72 48.26 0)
+		(property "LCSC" "C2761408"
+			(at 172.72 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13443,35 +12057,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 129.54 0)
+		(property "LCSC" "C72038"
+			(at 264.16 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13545,35 +12132,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 266.7 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 266.7 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 266.7 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 266.7 58.42 0)
+		(property "LCSC" "C72038"
+			(at 264.16 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13613,7 +12173,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 35.56 90)
 			(effects
 				(font
@@ -13647,35 +12207,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 38.1 0)
+		(property "LCSC" "C4190"
+			(at 251.46 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13727,7 +12260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "snapeda:AMPHENOL_10118194-0001LF_MOD"
+		(property "Footprint" "easyeda:MICRO-USB-SMD_10118194-0001LF"
 			(at 110.49 105.41 0)
 			(effects
 				(font
@@ -13753,35 +12286,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 114.3 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 114.3 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "10118194-0001LF"
-			(at 114.3 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Amphenol ICC"
-			(at 114.3 104.14 0)
+		(property "LCSC" "C132563"
+			(at 120.65 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13833,7 +12339,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 256.54 101.6 90)
 			(effects
 				(font
@@ -13867,35 +12373,8 @@
 				)
 			)
 		)
-		(property "ALT MPN" ""
-			(at 254 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT Manufacturer" ""
-			(at 254 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 254 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 254 104.14 0)
+		(property "LCSC" "C4190"
+			(at 251.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
