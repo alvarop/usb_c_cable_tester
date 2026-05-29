@@ -1,7 +1,7 @@
 # Ordering Instructions on [JLCPCB](https://jlcpcb.com/).
 
 ## Download Files
-Download jlcpcb.zip from [releases page](https://github.com/alvarop/usb_c_cable_tester/releases/tag/v2.2)
+Download jlcpcb.zip from [releases page](https://github.com/alvarop/usb_c_cable_tester/releases/)
 
 Unzip the `jlcpcb.zip` file, and you should find three files used below:
 
