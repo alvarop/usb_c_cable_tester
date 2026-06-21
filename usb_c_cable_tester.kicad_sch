@@ -7384,7 +7384,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 106.68 90)
 			(effects
 				(font
@@ -7392,7 +7392,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 109.22 0)
 			(effects
 				(font
@@ -7476,7 +7476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 22.86 90)
 			(effects
 				(font
@@ -7552,7 +7552,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 20.32 90)
 			(effects
 				(font
@@ -7560,7 +7560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 22.86 0)
 			(effects
 				(font
@@ -7636,7 +7636,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 81.28 90)
 			(effects
 				(font
@@ -7644,7 +7644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 83.82 0)
 			(effects
 				(font
@@ -7728,7 +7728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 53.34 90)
 			(effects
 				(font
@@ -7816,7 +7816,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Libraries:USB_C_Receptacle_24P_QCHT_C456013"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_JAE_DX07S024WJ3R400"
 			(at 116.84 96.52 0)
 			(effects
 				(font
@@ -7842,17 +7842,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C456013"
+		(property "LCSC" "C2840387"
 			(at 109.22 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt LCSC" "C2761408"
-			(at 109.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7961,7 +7952,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 91.44 90)
 			(effects
 				(font
@@ -7969,7 +7960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 93.98 0)
 			(effects
 				(font
@@ -8127,7 +8118,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 99.06 90)
 			(effects
 				(font
@@ -8203,7 +8194,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 30.48 90)
 			(effects
 				(font
@@ -8211,7 +8202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 33.02 0)
 			(effects
 				(font
@@ -8287,7 +8278,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 55.88 90)
 			(effects
 				(font
@@ -8295,7 +8286,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 58.42 0)
 			(effects
 				(font
@@ -8379,7 +8370,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 114.3 90)
 			(effects
 				(font
@@ -8455,7 +8446,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 121.92 90)
 			(effects
 				(font
@@ -8463,7 +8454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 124.46 0)
 			(effects
 				(font
@@ -8539,7 +8530,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 96.52 90)
 			(effects
 				(font
@@ -8547,7 +8538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 99.06 0)
 			(effects
 				(font
@@ -8623,7 +8614,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 137.16 90)
 			(effects
 				(font
@@ -8631,7 +8622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 139.7 0)
 			(effects
 				(font
@@ -8707,7 +8698,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 116.84 90)
 			(effects
 				(font
@@ -8715,7 +8706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 119.38 0)
 			(effects
 				(font
@@ -8791,7 +8782,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 66.04 90)
 			(effects
 				(font
@@ -8799,7 +8790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 68.58 0)
 			(effects
 				(font
@@ -9031,7 +9022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 43.18 90)
 			(effects
 				(font
@@ -9115,7 +9106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 109.22 90)
 			(effects
 				(font
@@ -9191,7 +9182,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 50.8 90)
 			(effects
 				(font
@@ -9199,7 +9190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 53.34 0)
 			(effects
 				(font
@@ -9283,7 +9274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 68.58 90)
 			(effects
 				(font
@@ -9359,7 +9350,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 40.64 90)
 			(effects
 				(font
@@ -9367,7 +9358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 43.18 0)
 			(effects
 				(font
@@ -9529,7 +9520,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda:MINI-USB-SMD_MINI-5PTP"
+		(property "Footprint" "Connector_USB:USB_Mini-B_Tensility_54-00023_Vertical"
 			(at 110.49 176.53 0)
 			(effects
 				(font
@@ -9555,7 +9546,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2681563"
+		(property "LCSC" "C13453"
 			(at 120.65 173.9899 0)
 			(effects
 				(font
@@ -9564,7 +9555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alt LCSC" ""
+		(property "Alt LCSC" "C720613, C6331167"
 			(at 114.3 175.26 0)
 			(effects
 				(font
@@ -9699,7 +9690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 124.46 90)
 			(effects
 				(font
@@ -9857,7 +9848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 78.74 90)
 			(effects
 				(font
@@ -9933,7 +9924,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 76.2 90)
 			(effects
 				(font
@@ -9941,7 +9932,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 78.74 0)
 			(effects
 				(font
@@ -10112,7 +10103,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 73.66 90)
 			(effects
 				(font
@@ -10199,7 +10190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 63.5 30.48 0)
 			(effects
 				(font
@@ -10283,7 +10274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 93.98 90)
 			(effects
 				(font
@@ -10359,7 +10350,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 71.12 90)
 			(effects
 				(font
@@ -10367,7 +10358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 73.66 0)
 			(effects
 				(font
@@ -10451,7 +10442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 63.5 90)
 			(effects
 				(font
@@ -10535,7 +10526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 38.1 90)
 			(effects
 				(font
@@ -10611,7 +10602,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 127 90)
 			(effects
 				(font
@@ -10619,7 +10610,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 129.54 0)
 			(effects
 				(font
@@ -10695,7 +10686,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 60.96 90)
 			(effects
 				(font
@@ -10703,7 +10694,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 63.5 0)
 			(effects
 				(font
@@ -10779,7 +10770,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 111.76 90)
 			(effects
 				(font
@@ -10787,7 +10778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 114.3 0)
 			(effects
 				(font
@@ -10871,7 +10862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 104.14 90)
 			(effects
 				(font
@@ -10947,7 +10938,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 45.72 90)
 			(effects
 				(font
@@ -10955,7 +10946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 48.26 0)
 			(effects
 				(font
@@ -11031,7 +11022,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 142.24 90)
 			(effects
 				(font
@@ -11039,7 +11030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 144.78 0)
 			(effects
 				(font
@@ -11115,7 +11106,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 25.4 90)
 			(effects
 				(font
@@ -11123,7 +11114,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 27.94 0)
 			(effects
 				(font
@@ -11199,7 +11190,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 86.36 90)
 			(effects
 				(font
@@ -11207,7 +11198,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 88.9 0)
 			(effects
 				(font
@@ -11291,7 +11282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 33.02 90)
 			(effects
 				(font
@@ -11379,7 +11370,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda:USB-B-TH_XUNPU_USB-306BWD-ARW"
+		(property "Footprint" "Libraries:USB_B_3.0_C2763106"
 			(at 105.41 134.62 0)
 			(effects
 				(font
@@ -11405,17 +11396,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C105423"
+		(property "LCSC" "C2763106"
 			(at 120.65 136.5249 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt LCSC" ""
-			(at 109.22 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11488,7 +11470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda:USB-A-TH_U231-091N-5"
+		(property "Footprint" "Libraries:USB_A_3.0_HC-USB3.0-L137-ZP_C19273972"
 			(at 171.45 127 0)
 			(effects
 				(font
@@ -11514,7 +11496,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C381137"
+		(property "LCSC" "C19273972"
 			(at 167.64 110.49 0)
 			(effects
 				(font
@@ -11596,7 +11578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 119.38 90)
 			(effects
 				(font
@@ -11680,7 +11662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 139.7 90)
 			(effects
 				(font
@@ -11764,7 +11746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 27.94 90)
 			(effects
 				(font
@@ -11848,7 +11830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 48.26 90)
 			(effects
 				(font
@@ -11932,7 +11914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 144.78 90)
 			(effects
 				(font
@@ -12016,7 +11998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 134.62 90)
 			(effects
 				(font
@@ -12100,7 +12082,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 88.9 90)
 			(effects
 				(font
@@ -12176,7 +12158,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 132.08 90)
 			(effects
 				(font
@@ -12184,7 +12166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 134.62 0)
 			(effects
 				(font
@@ -12268,7 +12250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 83.82 90)
 			(effects
 				(font
@@ -12355,7 +12337,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Libraries:USB_C_Receptacle_24P_QCHT_C456013"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_JAE_DX07S024WJ3R400"
 			(at 165.1 96.52 0)
 			(effects
 				(font
@@ -12381,17 +12363,8 @@
 				)
 			)
 		)
-		(property "LCSC" "C456013"
+		(property "LCSC" "C2840387"
 			(at 172.72 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt LCSC" "C2761408"
-			(at 172.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12508,7 +12481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 129.54 90)
 			(effects
 				(font
@@ -12592,7 +12565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 266.7 58.42 90)
 			(effects
 				(font
@@ -12668,7 +12641,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 35.56 90)
 			(effects
 				(font
@@ -12676,7 +12649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 38.1 0)
 			(effects
 				(font
@@ -12764,7 +12737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "easyeda:MICRO-USB-SMD_10118194-0001LF"
+		(property "Footprint" "Connector_USB:USB_Micro-B_Wuerth_614105150721_Vertical"
 			(at 110.49 105.41 0)
 			(effects
 				(font
@@ -12790,7 +12763,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C404969"
+		(property "LCSC" "C456007"
 			(at 120.65 102.8699 0)
 			(effects
 				(font
@@ -12799,7 +12772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Alt LCSC" ""
+		(property "Alt LCSC" "C668588"
 			(at 114.3 104.14 0)
 			(effects
 				(font
@@ -12852,7 +12825,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "2.2k"
 			(at 256.54 101.6 90)
 			(effects
 				(font
@@ -12860,7 +12833,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 254 104.14 0)
 			(effects
 				(font
